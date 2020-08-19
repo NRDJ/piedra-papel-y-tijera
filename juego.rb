@@ -1,8 +1,8 @@
-num = ARGV[0].downcase
+player = ARGV[0].downcase
 
 comp = rand(0..2)
 
-case num
+case player
 when "papel"
     puts "Computador juega piedra\nGanaste" if comp == 0
     puts "Computador juega papel\nEmpataste" if comp == 1
